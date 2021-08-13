@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT/26"
+                                    '💫Movie Paradise💫', url="https://t.me/MV_PD"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT/26"
+                                    '💫Movie Paradise💫', url="https://t.me/MV_PD"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT/26"
+                                    '💫 Movie Paradise 💫', url="https://t.me/MV_PD"
                                 )
                         ]
                     ]
@@ -89,15 +89,15 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('👨‍💼 𝙼𝚊𝚜𝚝𝚎𝚛', url='https://t.me/MRK_YT'),
-        InlineKeyboardButton('𝙷𝚎𝚕𝚙 🤔', callback_data="help")
+        InlineKeyboardButton('✨Our Group✨', url='https://t.me/MV_PD'),
+        InlineKeyboardButton('H E L P', callback_data="help")
     ],[
-        InlineKeyboardButton('🖥️ 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 𝚅𝚒𝚍𝚎𝚘 🖥️', url='https://youtu.be/uAHl5jvnrhk')
+        InlineKeyboardButton('✨ New Releases ✨', url='https://t.me/joinchat/BrsYZRTs43plMzVl')
     ],[
-        InlineKeyboardButton('🗣️ 𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/Mo_Tech_group'),
-        InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜 🤖', url='https://t.me/Mo_Tech_YT')
+        InlineKeyboardButton('✨ Series ✨', url='https://t.me/joinchat/AcowlM1xR4VjZTU1'),
+        InlineKeyboardButton('✨ MV_PD ✨', url='https://t.me/MV_PD')
     ],[
-        InlineKeyboardButton('💥 𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙼𝚢 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 💥', url='https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ')
+        InlineKeyboardButton('✨  Classics  ✨',url='https://t.me/MV_PD_Classics')
    ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -136,9 +136,9 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 @𝙼𝚛𝚔_𝚈𝚃 👤', url='https://t.me/MRK_YT')
+        InlineKeyboardButton('💫 MV_PD 💫', url='https://t.me/MV_PD')
     ],[
-        InlineKeyboardButton('👤 @𝙰𝚕𝚋𝚎𝚛𝚝𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗𝚃𝙶 👤', url='https://t.me/AlbertEinsteinTG')
+        InlineKeyboardButton('M A N ', url='https://t.me/J_A_R_V_l_S')
     ],[
         InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
         InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
